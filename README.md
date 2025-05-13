@@ -45,6 +45,7 @@ Welcome to the official repository for the **Ujjawal Library** website — a dig
 - Preloader animation using the library's logo
 - Clean UI and accessible layout
 - Fully customizable for rural or community libraries
+- Razorpay payment gateway for admission and monthly fee collections
 
 ---
 
