@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjawal Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/ujjawal libraray.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Include Remix Icon CDN if it's not already included -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+</head>
+
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <img src="img/ujjawal libraray.png" alt="Loading..." />
+    </div>
+    <!-- Preloader End -->
+    <style>
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        #preloader img {
+            width: 100px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <script>
+        window.addEventListener("load", function () {
+            // Loader will be removed after 7 seconds
+            setTimeout(function () {
+                const loader = document.getElementById("preloader");
+                if (loader) {
+                    loader.style.display = "none";
+                }
+            }, 4000);
+        });
+    </script>
+
+
+
+
+
+
+
+    <section class="background" id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/ujjawal libraray.png" alt="">
+            </div>
+
+            <ul class="nav_items" id="nav_links">
+                <div class="item">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">FEATURES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#monthly-payment">FEES</a></li>
+                    <li><a href="#contacts">CONTACT</a></li>
+                </div>
+            </ul>
+
+            <div class="nav_menu" id="menu_btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+
+        <section class="main">
+            <div class="left">
+                <h3>Welcome to Ujjawal Library</h3>
+                <h1>Your Gateway to Knowledge and Learning</h1>
+                <button class="btn" onclick="location.href='#contact'">Admission</button>
+            </div>
+            <div class="right">
+                <img src="img/Home.png" alt="home image">
+            </div>
+        </section>
+    </section>
+
+
+    <!-- _________features -->
+    <section class="sec" id="services">
+        <h1 class="heading">Key Features</h1>
+        <p class="para">Explore the top features of Ujjawal Library that provide an ideal environment for your studies.
+        </p>
+
+        <div class="box">
+            <div class="boxes">
+                <i class="ri-book-line"></i>
+                <h2 class="sub_heading">Bring Your Own Books</h2>
+                <p class="para_1">We don't provide books, but you're welcome to bring your own and dive into a world of
+                    knowledge. Our spacious reading areas are perfect for study sessions from 8 AM to 8 PM.</p>
+            </div>
+            <div class="boxes">
+                <i class="ri-building-line"></i>
+                <h2 class="sub_heading">Comfortable Study Environment</h2>
+                <p class="para_1">Enjoy a comfortable study environment with air conditioning, fans, and a peaceful
+                    atmosphere. We also provide mineral water to keep you refreshed throughout your study hours.</p>
+            </div>
+            <div class="boxes">
+                <i class="ri-wifi-line"></i>
+                <h2 class="sub_heading">Fast Wi-Fi & Charging Facilities</h2>
+                <p class="para_1">Stay connected and powered up! With fast Wi-Fi and charging boards available at every
+                    desk, you can work seamlessly without interruptions.</p>
+            </div>
+            <div class="boxes">
+                <i class="ri-gamepad-line"></i>
+                <h2 class="sub_heading">Games for Fresh Minds</h2>
+                <p class="para_1">Take a break with some fun games available to refresh your mind and come back to your
+                    studies with renewed energy.</p>
+            </div>
+
+            <div class="boxes">
+                <i class="fas fa-chair"></i> <!-- Font Awesome chair icon -->
+                <h2 class="sub_heading">200+ Seats Available</h2>
+                <p class="para_1">With over 200 comfortable seating arrangements, there is plenty of space for everyone
+                    to study, collaborate, or enjoy some quiet time.</p>
+            </div>
+
+            <div class="boxes">
+                <i class="fas fa-camera"></i>
+                <h2 class="sub_heading">Security & CCTV Monitoring</h2>
+                <p class="para_1">For your safety, we have CCTV cameras installed throughout the library, ensuring a
+                    secure and peaceful environment for everyone.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <h1 style="text-align: center;">ABOUT US</h1>
+
+    <!-- _____________About -->
+    <section class="sec" id="about">
+
+        <div class="about_box">
+
+            <div class="left_box">
+                <h1 class="heading">Welcome to Ujjawal Library</h1>
+                <p class="para">
+                    Ujjawal Library provides a calm, focused, and well-equipped environment for students preparing for
+                    competitive exams and higher studies.
+                </p>
+                <li><i class="ri-arrow-right-s-fill"></i>Over 200+ comfortable seating arrangements</li>
+                <li><i class="ri-arrow-right-s-fill"></i>Air-conditioned halls with charging points</li>
+                <li><i class="ri-arrow-right-s-fill"></i>High-speed Wi-Fi and peaceful study zones</li>
+                <button class="btn btn1">Learn More</button>
+            </div>
+
+            <div class="mid">
+                <img src="img/Ujjawal_Library_Poster_Optimized.jpg" alt="About Ujjawal Library">
+            </div>
+
+            <div class="right_box">
+                <h1 class="heading">Why Choose Us?</h1>
+                <p class="para">
+                    At Ujjawal Library, we ensure a clean, quiet, and safe space that motivates students to stay focused
+                    and consistent in their learning journey.
+                </p>
+                <li><i class="ri-arrow-right-s-fill"></i>Open 7 days a week from 8 AM to 8 PM</li>
+                <li><i class="ri-arrow-right-s-fill"></i>Separate lunch and relaxation areas</li>
+                <li><i class="ri-arrow-right-s-fill"></i>Affordable plans for monthly and weekly access</li>
+                <button class="btn btn1"
+                    onclick="alert('At ujjawal library the admission process is very simple submit your aadhar card and 500 Advanced Payment to complete your admission')">Admission
+                    Info</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- _____________Why Choose Us -->
+
+
+
+    <h1 style="text-align: center;">ADMISSION</h1>
+    <!-- __________contact -->
+
+    <section class="sec" id="contact">
+        <div class="box_1">
+            <div class="contact_left">
+                <h1 class="heading">Admission</h1>
+                <textarea name="text" placeholder="text"></textarea>
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="fname" placeholder="Father's Name">
+                <input type="text" name="address" placeholder="Address">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="phone" placeholder="Phone Number">
+                <!-- Aadhar Card Upload -->
+                <input type="file" name="aadhar" accept="image/*" placeholder="Upload Aadhar Card">
+                <input type="file" name="aadhar" accept="image/*" placeholder="Upload payment proof">
+
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_QUJ7XclGaKtQSw" async>
+                        </script>
+                </form>
+                <p class="para_1">Note: Please Click on Payment button and pay for confirm your Admission.</p>
+                <button class="btn btn1">Submit</button>
+            </div>
+
+            <div class="contact_right">
+                <img src="img/pic1.jpg" alt="">
+                <img src="img/pic2.jpg" alt="">
+                <img src="img/pic3.jpg" alt="">
+                <img src="img/pic4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <h1 style="text-align: center;">PAY MONTHLY FEES</h1>
+    <section class="library_section" id="monthly-payment">
+        <div class="library_box">
+
+            <!-- Left Side: Full Image of Founder -->
+            <div class="library_image_section">
+                <img src="img/founder.png" alt="Founder of Ujjawal Library" class="library_full_image">
+            </div>
+
+            <!-- Right Side: Text and Payment Button -->
+            <div class="library_info">
+                <h2 class="library_title">Pay Monthly Amount</h2>
+                <p class="library_desc">
+                    <strong>Ujjawal Library</strong> is the first library in our area, committed to providing a peaceful
+                    and focused
+                    environment for learners and students. Our mission is to support education and self-growth through
+                    resources and guidance.
+                </p>
+
+                <p class="library_note">
+                    <strong>👉 Click the Payment Button to Pay Monthly Amount.</strong>
+                </p>
+
+                <form class="payment_form">
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_QUJNAQsHOv0Tnd" async>
+                        </script>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="contact-section" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">We’d love to hear from you! Reach out with questions, suggestions, or just say
+                hello.</p>
+
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Full Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <!-- Google Map & Info -->
+                <div class="contact-info">
+                    <h3>Visit Our Location</h3>
+                    <p><strong>Ujjawal Library</strong><br>1234 Main Street, XYZ City, India</p>
+                    <div class="map-box">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12947.40219002431!2d84.91946684581721!3d26.29940671902905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992d530a0bae839%3A0x2404a2df849b0625!2sSahebganj%2C%20Bihar%20843125!5e1!3m2!1sen!2sin!4v1747119464390!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- _____________Library Section -->
+
+
+    <!-- _____________footer -->
+    <footer>
+
+        <div class="sec footer_container">
+
+            <div class="footer_col">
+                <h4>about</h4>
+                <ul class="footer_links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">FEATURES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#monthly-payment">FEES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>company</h4>
+                <ul class="footer_links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">FEATURES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#monthly-payment">FEES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>support</h4>
+                <ul class="footer_links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">FEATURES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#monthly-payment">FEES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <div class="footer_logo logo">
+                    <img src="img/ujjawal libraray.png" alt="footer logo">
+
+                </div>
+                <p class="para_1 footer_text">
+
+                    <strong>Ujjawal Library</strong> is dedicated to empowering learners with knowledge and resources.
+                    As the first library in our area, we are committed to providing a peaceful and focused environment
+                    for personal and academic growth. Our vision is to support the community through education,
+                    technology, and collaboration.
+
+                </p>
+                <ul class="footer_socials">
+                    <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer_bar">
+            copyright @ 2025 Ujjawal Library. All right reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
